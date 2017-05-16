@@ -1,0 +1,117 @@
+	<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css' rel='stylesheet' type='text/css'>
+
+
+<style>
+body,html {
+	height: 100%;
+	margin:0;
+	font-family: 'Jeju Myeongjo', serif;
+	line-height: 2em;
+}
+
+.parallax {
+    background-image: url("backimg.jpg");
+	min-height: 500px; 
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+	height:80%; 
+	background-color:white;
+	font-size:20px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:5%;
+}
+
+.title {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+
+img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+iframe {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="parallax"></div>
+
+<div class="content">
+	최대한 간략하게 써서, 따라오면 일단 편집을 할 수 있도록 목표를 잡았습니다.<br>
+	정확성 보다는 이해를 돕기위해서 내가 쓰는 것이 옳다 라는 식으로 되어있으니<br>
+	나중에 한 번 다른 책들 읽어보시면 더 쉽게 이해하실 수 있습니다..<br>
+	
+	<!-- 1페이지 -->
+	<div class="title">
+	  <p><strong>1장 우리가 사용하는 동영상</strong></p>
+	</div>
+	
+	동영상은 1초안에 수십장의 이미지와 소리를 넣은 것입니다.<br><br>
+	
+	최근 카메라는 30p, 60p가 기본으로 설정되어 있습니다.<br>
+	30p는 1초에 30장의 사진이 지난 간다는 이야기이고 60p는 60장이라는 의미입니다.<br>
+	당연히 60p가 춤추는 장면을 찍을 때 더 부드러운 화면을 보여줍니다.<br><br>
+	
+	이미지의 크기는 720p, 1080p, 4K를 많이 사용합니다.<br>
+	<img src ="https://cdn.recombu.com/digital/images/news/M10888/1345131326.png" width="30%" ><br><br>
+	
+	1080은 1080p와 1080i가 있는데, 1080p가 더 좋습니다.<br>
+	(자세한 내용은 위키백과에서 비월 주사 방식'을 검색하여보세요.)<br>
+	<br>
+	1080 크기에 1초에 60장 사진을 찍으면 상당히 큰 용량의 파일이 만들어집니다.<br>
+	그래서 영상을 압축을 하게되는 데 이때 사용되는 것이 코덱이라는 것입니다.<br>
+	(그냥 영상압축 = 코덱 = H.264 라고 일단을 생각해주세요)<br>
+	<br>
+	위에있는 약속들을 담고 있는 것을 '컨테이너'라고 부르며,<br>
+	영상을 찍고나면 C0004.MP4 라는 파일이 컨테이너 파일입니다.<br>
+	<br>
+	아까 말했듯 동영상은 소리도 포함을 하는데 mp3보다 좋은 aac로 같이 녹음됩니다.<br>
+	(그냥 소리압축 = 코덱 = aac 라고 일단을 생각해주세요)<br>
+	<br>
+	<b>1080 60p H.264 aac mp4</b><br>
+	1080사이즈의 영상이 초당 60장 지나가고 영상은 H.264로 음성은 aac로 압축된 mp4 파일이다.<br>
+	이렇게 이해하실 수 있으면 충분합니다.<br>
+
+	<!-- 2페이지 -->
+	<div class="title">
+	  <p><strong>2장 유투브 영상업로드</strong></p>
+	</div>
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/x29MGshZdns" frameborder="0" allowfullscreen></iframe><br>
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/6s49YkJBUjo" frameborder="0" allowfullscreen ></iframe><br>
+	'커뮤니티 자막'을 '사용'으로 변경하면 다른 사람들이 번역작업을 할 수 있음<br>
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/EKUI7Ml1BFI" frameborder="0" allowfullscreen></iframe>
+	
+	<!-- 3페이지 -->
+	<div class="title">
+	  <p><strong>3장 구글드라이브 영상업로드</strong></p>
+	</div>
+	
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/Rbytly74L50" frameborder="0" allowfullscreen></iframe>
+
+
+	
+<br><br><br>
+</div>
+</body>
+</html>
